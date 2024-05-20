@@ -1,17 +1,17 @@
 # SlowLorisDDoSAttackCPP
-C++ implementation of Slow Loris DDoS attack. - Vighnesh Souda
+Реализация атаки Slow Loris DDoS на языке C++. - Vighnesh Souda
 
 
-1. Open a terminal in location of the program file slowlorisattackmultithread.cpp.
+1. Откройте терминал в расположении файла программы slowlorisattackmultithread.cpp.
 
-2. Compile the file with -std=c++0x and -pthread flags set; make sure to create output file:
-	Example: g++ slowlorisattackmultithread.cpp -std=c++0x -pthread -o out
+2. Скомпилируйте файл с установленными флагами -std=c++0x и -pthread; убедитесь, что создаете выходной файл:
+Пример: g++ slowlorisattackmultithread.cpp -std=c++0x -pthread -o out
 
-3. Execute the output file.
-	Example: ./out
-	-> Terminal will automatically display correct way of execution upon mishap.
+3. Запустите выходной файл.
+Пример: ./out
+-> Терминал автоматически покажет правильный способ выполнения при ошибке.
 
-## Ubuntu
+## Ubuntu (у меня был arch но далекого изменения это не несет)
 Terminal Preview:
 ```
 $ git clone https://github.com/vsouda/SlowLorisDDoSAttackCPP.git
@@ -19,3 +19,6 @@ $ cd SlowLorisDDoSAttackCPP
 $ g++ slowlorisattackmultithread.cpp -std=c++0x -pthread -o out
 $ ./out <dest_ip> <dest_port_num> <num_sockets> <num_threads>
 ```
+
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH5RQo9kPNXn5NWk9GIaWr9fFrjgn4GrM4EdEQB/1Ta1 qeez4@qeez4-ms7b89
